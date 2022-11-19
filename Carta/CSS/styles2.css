@@ -1,9 +1,66 @@
+.container-fluid{
+    background-color: #0c0d0e9e;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px 0px 10px 0px;
+}
+
 #row-cabecera{
     display: flex;
-    font-size: 26px;
-    background-color: rgb(242, 247, 247);
+    font-size: 24px;
     justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: black;
+}
+
+.nav-link{
+    color: black;
+    --bs-nav-link-hover-color: white;
+}
+
+.cabecera-carta{
+    display: flex;
+    font-size: 32px;
+    justify-content: space-between;
     align-items: center;
     font-style: bold;
     color: black;
+    margin-bottom: 5px;
+}
+
+.carta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px 20px 0px;
+}
+
+#carta{
+    display: flex;
+    font-size: 32px;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: black;
+    border: black solid 5px;
+    border-radius: 2%;
+    padding: 0px 20px 0px 20px;
+    margin-bottom: 10px;
+}
+
+#menu-carta{
+    font-size: 18px;
+    color: black;
+    margin-bottom: 5px;
+}
+
+.encabezado{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
 }

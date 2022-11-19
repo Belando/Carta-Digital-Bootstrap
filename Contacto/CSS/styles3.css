@@ -1,9 +1,24 @@
-#row-cabecera{
+.container-fluid{
+    background-color: #0c0d0e9e;
+}
+
+.header{
     display: flex;
-    font-size: 26px;
-    background-color: rgb(242, 247, 247);
     justify-content: center;
     align-items: center;
-    font-style: bold;
+    margin: 25px 0px 10px 0px;
+}
+
+#row-cabecera{
+    display: flex;
+    font-size: 24px;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
     color: black;
+}
+
+.nav-link{
+    color: black;
+    --bs-nav-link-hover-color: white;
 }
