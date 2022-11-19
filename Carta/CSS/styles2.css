@@ -1,5 +1,5 @@
 .container-fluid{
-    background-color: #0c0d0e9e;
+    background-color: #a8a9ad90;
 }
 
 .header{
@@ -37,7 +37,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 20px 0px 20px 0px;
+    color: black;
+    font-weight: bold;
+    margin-top: 1em;
 }
 
 #carta{
@@ -47,20 +49,26 @@
     align-items: center;
     font-weight: bold;
     color: black;
-    border: black solid 5px;
+    border: black solid 4px;
     border-radius: 2%;
     padding: 0px 20px 0px 20px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
+    margin-top: 1em;
+    background-color: rgba(39, 40, 41, 0.204);
 }
 
 #menu-carta{
-    font-size: 18px;
+    font-size: 19px;
     color: black;
+    font-family:Arial, Helvetica, sans-serif;
     margin-bottom: 5px;
+    border-left: 2px black solid;
+    padding-left: 5px;
+    
 }
 
-.encabezado{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 20px;
+a{
+    color: #ffffff;
+    text-decoration:solid;
+    font-size: 20px;
 }
