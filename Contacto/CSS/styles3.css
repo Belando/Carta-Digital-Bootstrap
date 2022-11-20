@@ -1,4 +1,25 @@
 
+
+[class*="col-"] {
+    width: 100%;
+  }
+  
+  @media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+
 .container-fluid{
     background-color: #a8a9ad90;
 }
@@ -17,18 +38,68 @@
     --bs-nav-link-hover-color: white;
 }
 
-.carta{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: black;
-    font-weight: bold;
-    margin-top: 1em;
-}
-
 .header{
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 15px 0px 10px 0px;
+}
+
+#fotos{
+    object-fit: cover;
+    width: calc(100%);
+    height: calc(100%);
+    border: black solid 3px;
+}
+
+.principal2{
+    background-color: #f7f7f7f9;
+    border: black solid 1px;
+    color: black;
+    font-size: 22px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.principal3{
+    padding:0%;
+    border: black solid 1px;
+    height: 60%;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#uno {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+.mapa{
+    object-fit: cover;
+    width: calc(100%);
+    height: calc(400%);
+    font-size: 24px;
+    background-color: #f7f7f7f9;
+    border: black solid 1px;
+    color: black;
+}
+
+.abajo{
+    font-size: 24px;
+    background-color: #f7f7f7f9;
+    border: black solid 1px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
