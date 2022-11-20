@@ -26,6 +26,13 @@
     margin-top: 1em;
 }
 
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0px 10px 0px;
+}
+
 #carta{
     display: flex;
     font-size: 32px;
@@ -39,13 +46,6 @@
     margin-bottom: 15px;
     margin-top: 1em;
     background-color: rgba(39, 40, 41, 0.204);
-}
-
-.header{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 15px 0px 10px 0px;
 }
 
 #menu-carta{
