@@ -7,7 +7,8 @@ Uso de Responsive a través:
 - A través de media en Home y Contacto
 
 Elementos añadidos con bootstrap:
-- Enlaces, mapas, iconos
+- Enlaces a redes sociales
+- Iconos y mapa de google
 
 Banner:
 - Desaparece en las 3 páginas para dejar espacio responsive
