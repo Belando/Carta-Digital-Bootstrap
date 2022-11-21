@@ -16,6 +16,9 @@ Banner:
 Carta:
 - Elementos como la descripción desaparecen para dejar espacio responsive
 
+Contacto:
+- Elemento Mapa responsive
+
 Bugs conocidos:
 - Alineamiento y bordes de algunas fotos en los divs
 - Espaciado en el horario (días de la semana y horas)
