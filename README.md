@@ -1,4 +1,4 @@
-# Carta-Restaurante-Digital-RETO
+# Carta-Restaurante-Digital
 
 Proyecto de Restaurante Digital con HTML, CSS y Bootstrap
 
